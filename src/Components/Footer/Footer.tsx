@@ -58,10 +58,8 @@ export const Footer: React.FC = () => {
             <Typography>GitHub</Typography>
           </MUILink>
           <MUILink
-            href="https://www.linkedin.com/in/ronishlopxhan/"
-            target={"_blank"}
           >
-            <Typography>RSS</Typography>
+            <Typography sx={{textDecoration: 'line-through'}}>RSS</Typography>
           </MUILink>
         </Stack>
       </Stack>

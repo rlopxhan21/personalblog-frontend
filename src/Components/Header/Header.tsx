@@ -42,6 +42,7 @@ export const Header: React.FC<Props> = ({mode, setMode}) => {
               onClick={() => setSearch(true)}
               sx={{ ...btnStyle, px: { xs: 5, md: 20 } }}
               color="secondary"
+              disabled
             >
               Search...
             </Button>
