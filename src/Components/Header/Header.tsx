@@ -36,7 +36,7 @@ export const Header: React.FC<Props> = ({mode, setMode}) => {
           </RouterLink>
 
           <Stack direction={"row"} alignItems="center" gap={2}>
-            <Button
+            {/* <Button
               variant="contained"
               startIcon={<SearchIcon />}
               onClick={() => setSearch(true)}
@@ -45,7 +45,7 @@ export const Header: React.FC<Props> = ({mode, setMode}) => {
               disabled
             >
               Search...
-            </Button>
+            </Button> */}
             <Button
               variant="contained"
               onClick={() => setMode(mode === 'light' ? "dark": 'light')}
